@@ -48,7 +48,7 @@ public class MakeStringGreat {
 
         for (Character c : s.toCharArray()) {
             if (!stack.isEmpty() && stack.peek().equals(getOppositeLetter(c))) {
-                    stack.pop();
+                stack.pop();
             } else {
                 stack.add(c);
             }
