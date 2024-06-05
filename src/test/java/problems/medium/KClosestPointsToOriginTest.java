@@ -16,8 +16,8 @@ class KClosestPointsToOriginTest {
         };
         int k = 2;
         int[][] expected = new int[][]{
-                new int[]{3,3},
-                new int[]{-2,4}
+                new int[]{-2,4},
+                new int[]{3,3}
         };
         int[][] actual = solution.kClosest(points, k);
         assertArrayEquals(expected, actual);
